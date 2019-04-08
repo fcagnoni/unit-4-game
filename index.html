@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>RPG game</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <auido src=assets/audio/burp.mp3 id=burp></auido>
+    <div class="row">
+      <div>
+        <h1>drink game</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-1-sm">
+        <h2 id="chooseOpponent">Now choose drinking buddy:</h2>
+        <h2 id="chooseChar">Choose your character:</h2>
+        <h2 id="uWin">You Win!</h2>
+        <h2 id="uLose">You Lose..</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-1-sm">
+        <div class="card-deck" id="charSelectCardGroup"></div>
+      </div>
+    </div>
+
+    <!-- Attack Button Row -->
+    <div class="row" style="margin-top: 15px; margin-bottom: 15px; min-height: 40px;">
+      <div class="col-1-sm">
+          <button type="button" id="drinkBtn" class="btn btn-danger">drink!</button>
+          <button type="button" id="resetBtn" class="btn btn-warning">restart?</button>
+      </div>
+    </div>
+    
+
+
+    <div class="row">
+      <div class="col-1-sm">
+        <div class="card-deck" id="enemyCardGroup"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/javascript/game.js"></script>
+
+
+</body>
