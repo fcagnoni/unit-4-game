@@ -136,6 +136,7 @@ function fight() {
     if (defeatedEnemies.length === characters.length -1){
       $("#resetBtn").show()
       $("#uWin").show()
+      $("#chooseOpponent").hide();
     }
   }
   else {
