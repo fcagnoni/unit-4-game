@@ -4,7 +4,7 @@ let characters = [{
     currentHP: 50,
     initialAtk: 15,
     currentAtk: 15,
-    Counter: 15,
+    Counter: 18,
     imgURL: "assets/images/homer.jpg",
     charSelectElementId: "charSelectHomer"
   },
@@ -14,7 +14,7 @@ let characters = [{
     currentHP: 70,
     initialAtk: 13,
     currentAtk: 13,
-    Counter: 13,
+    Counter: 16,
     imgURL: "assets/images/barney.png",
     charSelectElementId: "charSelectBarney"
   },
@@ -24,7 +24,7 @@ let characters = [{
     currentHP: 40,
     initialAtk: 18,
     currentAtk: 18,
-    Counter: 18,
+    Counter: 21,
     imgURL: "assets/images/carl.jpg",
     charSelectElementId: "charSelectCarl"
   },
@@ -34,7 +34,7 @@ let characters = [{
     currentHP: 30,
     initialAtk: 20,
     currentAtk: 20,
-    Counter: 20,
+    Counter: 24,
     imgURL: "assets/images/lenny.jpg",
     charSelectElementId: "charSelectLenny"
   }
